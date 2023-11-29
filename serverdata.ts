@@ -1,15 +1,13 @@
 import { queryGameServerInfo } from 'npm:steam-server-query';
 
 // this is the list of ips that will be queried
-const ips = ['144.217.10.50', '198.27.70.76']
-const ports = [25001, 25002, 25003]
+const ips: string[] = [ "127.0.0.1", "192.168.1.1" ]
+const ports: number[] = [ 27015, 27016 ]
 
 // this was a short cut i wrote because
 // i was to lazy to write all of the ports
 // so this just loops thru the range of all the ports
-for (let i = 27015; i <= 27069; i++) {
-    ports.push(i);
-}
+//for (let i = 27015; i <= 27069; i++) { ports.push(i) }
 
 // this holds the raw data from the quries before they are sorted
 let onlineData: any[] = [];
