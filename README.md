@@ -1,5 +1,6 @@
 # Simple Server Query
 A Simple Source Server Querying script that will iterates thru a user provided list of IPs and Ports
+
 (THIS IS ONLY TESTED WITH SOURCE SERVERS)
 
 ## Requirements
@@ -17,3 +18,4 @@ A Simple Source Server Querying script that will iterates thru a user provided l
 9. Enjoy your updating Json file
 
 ## License
+GNU General Public License v3.0
